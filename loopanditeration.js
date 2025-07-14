@@ -98,12 +98,12 @@ for(let value of fruit){
 
 //for...in loop		
 // Create an object person = {name: "John", age: 25, city: "New York"} and print all the keys and values using a for...in loop.
-let fruits=["apple","banana","strawbery"]//for-in
+let persons={name:"John", age:25, city:"NEw YORK"}//for-in
 
-for(let value in fruits){
-    console.log(fruits[value])
+for(let values in persons){
+    console.log(persons[values])
 }
 //output
-//apple
-//banana
-//strawberry
+//John
+//25
+//New York
